@@ -8,6 +8,37 @@
 
   <body>
     <h1>Hello World, we are software developers!</h1>
+    <h1 id="title"> survey page </h1>
+    <p id="description"> explanation </p>
+    <form  id="survey-form" >
+      <label  id="name-label">First name:</label><br>
+      <input  placeholder="name" type="text" id="name" required ><br>
+      <label id="email-label">email:</label><br>
+      <input placeholder="email" type="email" id="email" required  ><br>
+      <label id="number-label">phone number:</label><br>
+      <input placeholder="phone" max="10" min="7" type="number" id="number" name="number"><br>
+      
+      <select name="dropdown" id="dropdown"><option value="option" >select an an option</option><option value="option" >select an an option</option></select>
+<br>
+<br>
+<p>is this fun </p>
+      <label for=""><input name="user-recommend" value="not-sure" type="radio" class="input-radio">Not sure</label>
+      <label for=""><input name="user-recommend" value="not-sure" type="radio" class="input-radio">maybe</label>
+      <label for=""><input name="user-recommend" value="not-sure" type="radio" class="input-radio">for sure</label>
+      <br>
+      <br>
+      <p>chose what you like </p>
+      
+      <label for=""><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">chicken</label>
+      <label for=""><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">fish</label>
+      <label for=""><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">apple</label>
+      <br>
+      <br>
+      <textarea name="suggestion" id="textarea" cols="30" rows="10"></textarea>
+
+      <button id="submit">submit</button>
+</form>
+    
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
